@@ -1,5 +1,5 @@
 .app.dark {
-    background-color: #222;
+    background-color: #111;
     color: rgb(156, 156, 156);
 
     .chartGrid {
@@ -14,5 +14,57 @@
         }
     }
 
+    .navbar {
+        color: #999;
+        border: #333;
 
+        .search {
+            border-color: gray;
+        }
+    }
+
+    .sidebar {
+        background-color: #111;
+        border-color: #333;
+
+        .top {
+            .logo {
+                color: #999;
+            }
+        }
+
+        hr {
+            border-color: #333;
+        }
+
+        ul {
+            li {
+                &.hover {
+                    background-color: #333;
+                }
+
+                .icon {
+                    color: #999;
+                }
+            }
+        }
+    }
+
+    .datatable {
+        .datagrid {
+            color: gray;
+            border: none;
+
+            .viewButtom,
+            .deleteButtom,
+            .cellWithStatus {
+                color: gray;
+                border: none;
+            }
+        }
+    }
+
+    input {
+        background-color: transparent;
+    }
 }
